@@ -1,0 +1,10 @@
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Failure";
+}
+<h1>@ViewData["Title"]</h1>
+<h1>Login failed for:</h1>
+<p>USERNAME: </p>
+<div class="form-group">
+<a asp-area="" asp-controller="User" asp-action="Login">Log in.</a>
+</div> 

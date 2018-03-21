@@ -1,0 +1,34 @@
+@model LoginViewModel
+@{
+    ViewData["Title"] = "Login Page";
+}
+<form class="form-horizontal" asp-action="Failure" method="POST">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Login Information</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <div class="col-md-4">
+  <input asp-for="userName" placeholder="Username" class="form-control input-md" type="text">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <div class="col-md-4">
+    <input asp-for="password" placeholder="Password" class="form-control input-md" type="password">
+    
+  </div>
+</div>
+<!-- Button -->
+<div class="form-group">
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-primary">Login</button>
+  </div>
+</div>
+
+</fieldset>
+</form>

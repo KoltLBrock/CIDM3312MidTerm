@@ -8,3 +8,4 @@ C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.AssemblyInfoInputs.c
 C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.AssemblyInfo.cs
 C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.dll
 C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.pdb
+C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.csprojResolveAssemblyReference.cache
