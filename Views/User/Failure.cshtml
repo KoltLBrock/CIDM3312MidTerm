@@ -2,9 +2,13 @@
 @{
     ViewData["Title"] = "Failure";
 }
+    <head>
+        <meta name="viewport" content="width=divice-width">
+        <title>Login Failed</title>
+    </head>
 <h1>@ViewData["Title"]</h1>
-<h1>Login failed for:</h1>
-<p>USERNAME: </p>
+<h1>Login failed:</h1>
+<p>Please ensure that your username and password are correctly typed in.</p>
 <div class="form-group">
-<a asp-area="" asp-controller="User" asp-action="Login">Log in.</a>
+<a asp-area="" asp-controller="User" asp-action="Login" class="btn btn-default">Log in.</a>
 </div> 

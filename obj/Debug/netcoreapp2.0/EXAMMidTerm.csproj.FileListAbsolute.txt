@@ -9,3 +9,14 @@ C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.AssemblyInfo.cs
 C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.dll
 C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.pdb
 C:\CIDM3312\EXAMMidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.csprojResolveAssemblyReference.cache
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\bin\Debug\netcoreapp2.0\EXAMMidTerm.deps.json
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\bin\Debug\netcoreapp2.0\EXAMMidTerm.runtimeconfig.json
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\bin\Debug\netcoreapp2.0\EXAMMidTerm.runtimeconfig.dev.json
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\bin\Debug\netcoreapp2.0\EXAMMidTerm.dll
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\bin\Debug\netcoreapp2.0\EXAMMidTerm.pdb
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.csprojResolveAssemblyReference.cache
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.csproj.CoreCompileInputs.cache
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.AssemblyInfoInputs.cache
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.AssemblyInfo.cs
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.dll
+C:\CIDM3312\CID3312 MIDTERM\CIDM3312MidTerm\obj\Debug\netcoreapp2.0\EXAMMidTerm.pdb

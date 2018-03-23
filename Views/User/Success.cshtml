@@ -2,9 +2,13 @@
 @{
     ViewData["Title"] = "Success";
 }
+    <head>
+        <meta name="viewport" content="width=divice-width">
+        <title>Log In Successful</title>
+    </head>
 <h1>@ViewData["Title"]</h1>
 <h1>Login successful for:</h1>
-<p>USERNAME: </p>
+<p>USERNAME: @Model.userName</p>
 <div class="form-group">
-<a asp-area="" asp-controller="User" asp-action="Login">Log out.</a>
+<a asp-area="" asp-controller="User" asp-action="Login" class="btn btn-default">Log out.</a>
 </div> 

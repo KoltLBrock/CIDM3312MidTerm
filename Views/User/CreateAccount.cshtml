@@ -1,12 +1,14 @@
 @model LoginViewModel
 @{
-    ViewData["Title"] = "Login Page";
+    ViewData["Title"] = "Create Account Page";
 }
-<form class="form-horizontal" asp-action="LoginResult" method="POST">
+<p>@ViewData["Title"]</p>
+<form class="form-horizontal" asp-action="AddNewUser" method="POST">
+    <div asp-validation-summary="All"></div>
 <fieldset>
 
 <!-- Form Name -->
-<legend>Login Information</legend>
+<legend>Create New Login Information</legend>
 
 <!-- Text input-->
 <div class="form-group">
@@ -26,7 +28,7 @@
 <!-- Button -->
 <div class="form-group">
   <div class="col-md-4">
-    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class="btn btn-primary">Create Account</button>
   </div>
 </div>
 

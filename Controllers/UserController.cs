@@ -16,16 +16,34 @@ namespace EXAMMidTerm.Controllers
             return View();
         }
         [HttpGet]
+        public IActionResult CreateAccount(){
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddNewUser(LoginViewModel loginViewModel){
+            if(ModelState.IsValid){
+            Repository.AddAccount(loginViewModel);
+            return View("AccountCreated",loginViewModel);
+            }else{
+                return View("CreateAccount");
+            }
+        }
+        [HttpGet]
         public IActionResult Login(){
             return View();
         }
-        //[HttpPost]
-        public IActionResult Success(){
-            return View();
-        }
-        //[HttpPost]
-        public IActionResult Failure(){
-            return View();
+        [HttpPost]
+        public IActionResult LoginResult(LoginViewModel loginViewModel){
+            //this took a long time to figure out because I didnt know how to do the first if part, inside the foreach
+            foreach(var i in Repository.Accounts){
+                if(i.userName == loginViewModel.userName){
+                    if(i.password == loginViewModel.password){
+                        return View("Success", loginViewModel);
+                    }
+                    //at this point the password is wrong but the username is right
+                }
+            }
+            return View("Failure");
         }
         public IActionResult Error()
         {
